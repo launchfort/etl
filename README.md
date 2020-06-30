@@ -5,7 +5,7 @@ Extract, transform and load CLI tool.
 ## Install
 
 ```
-npm install -g launchfort/etl@0.0.1
+npm install -g launchfort/etl#v0.0.1
 ```
 
 ## Quick Start
