@@ -35,7 +35,7 @@ Transform a JSON stream into a Excel XLSX workbook stream (i.e. XLSX file).
 ## Custom Transform
 
 ```
---extractor ./transforms/my-extractor.js ...
+--transform ./transforms/my-transform.js ...
 ```
 
 Custom transforms can specified as a Nodejs module with the following file

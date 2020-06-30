@@ -17,7 +17,7 @@ custom loader as a path to a Nodejs module (i.e. `./my-module.js`).
 ## Custom Loader
 
 ```
---extractor ./loaders/my-extractor.js ...
+--load ./loaders/my-loader.js ...
 ```
 
 Custom loaders can specified as a Nodejs module with the following file
