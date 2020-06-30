@@ -1,0 +1,22 @@
+{
+  "name": "etl",
+  "version": "0.0.1",
+  "description": "Extract, transform and load CLI tool.",
+  "main": "lib/etl.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "etl": "./lib/etl.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Darren Schnare <dschnare@launchfort.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.0.1",
+    "stream-join": "^1.0.0"
+  }
+}
