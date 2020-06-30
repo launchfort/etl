@@ -86,7 +86,7 @@ as described above can be specified to control processing.
 ## Custom Extractors
 
 ```
---extractor ./extractors/my-extractor.js ...
+--extract ./extractors/my-extractor.js ...
 ```
 
 Custom extractors can specified as a Nodejs module with the following file
