@@ -1,7 +1,7 @@
 # Transform
 
-Transformers are responsible for transforming JSON streams to new JSON streams
-(i.e. `Transform`) or to a binary or text stream.
+Transformers are responsible for transforming JSON object streams to new streams
+(i.e. `Transform`).
 
 At the command line you can specify one of the built-in transforms or specify a
 custom transform as a path to a Nodejs module (i.e. `./my-module.js`).
@@ -14,7 +14,7 @@ custom transform as a path to a Nodejs module (i.e. `./my-module.js`).
 --transform json ...
 ```
 
-Transform a JSON stream into a JSON text (i.e. JSON file).
+Transform a JSON object stream into a JSON text stream (i.e. JSON file).
 
 ### CSV
 
@@ -22,7 +22,7 @@ Transform a JSON stream into a JSON text (i.e. JSON file).
 --transform csv ...
 ```
 
-Transform a JSON stream into a CSV text (i.e. CSV file).
+Transform a JSON object stream into a CSV text stream (i.e. CSV file).
 
 ### XLSX
 
@@ -30,7 +30,7 @@ Transform a JSON stream into a CSV text (i.e. CSV file).
 --transform xlsx ...
 ```
 
-Transform a JSON stream into a Excel XLSX workbook stream (i.e. XLSX file).
+Transform a JSON object stream into an Excel XLSX workbook stream (i.e. XLSX file).
 
 ## Custom Transform
 
@@ -38,7 +38,7 @@ Transform a JSON stream into a Excel XLSX workbook stream (i.e. XLSX file).
 --transform ./transforms/my-transform.js ...
 ```
 
-Custom transforms can specified as a Nodejs module with the following file
+Custom transforms can be specified as a Nodejs module with the following file
 extensions: `'', '.js', '.mjs'`.
 
 Tramsform modules must have a default export that is a sync/async factory

@@ -14,13 +14,16 @@ custom loader as a path to a Nodejs module (i.e. `./my-module.js`).
 --load stdout > ...
 ```
 
+Pipes the stream to `stdout`. Note that before this loader can be used the JSON
+object stream must have been transformed into a string or binary stream.
+
 ## Custom Loader
 
 ```
 --load ./loaders/my-loader.js ...
 ```
 
-Custom loaders can specified as a Nodejs module with the following file
+Custom loaders can be specified as a Nodejs module with the following file
 extensions: `'', '.js', '.mjs'`.
 
 Loader modules must have a default export that is a sync/async factory
