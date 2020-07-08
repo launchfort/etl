@@ -1,6 +1,6 @@
 {
   "name": "etl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extract, transform and load CLI tool.",
   "main": "lib/etl.js",
   "directories": {
