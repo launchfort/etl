@@ -16,6 +16,9 @@ custom transform as a path to a Nodejs module (i.e. `./my-module.js`).
 
 Transform a JSON object stream into a JSON text stream (i.e. JSON file).
 
+By default uses the EOL value from the `os` module when wrting newline characters.
+This can be overridden with the environment variable `ETL_T_EOL`.
+
 ### CSV
 
 ```
@@ -23,6 +26,9 @@ Transform a JSON object stream into a JSON text stream (i.e. JSON file).
 ```
 
 Transform a JSON object stream into a CSV text stream (i.e. CSV file).
+
+By default uses the EOL value from the `os` module when wrting newline characters.
+This can be overridden with the environment variable `ETL_T_EOL`.
 
 ### XLSX
 
